@@ -1,0 +1,30 @@
+h1,h2{
+    text-align: center;
+    
+}
+.para{
+    text-align: left;
+
+color:rgba(230, 109, 236, 0.923);
+}
+.symbol{
+    color:rgb(162, 252, 97);
+    text-align: center;
+    font-size:  100px;;
+    
+    
+}
+body{
+    background-image: url(pawel-czerwinski-O_lLr6e8NtQ-unsplash.jpg);
+    background-size: cover;
+
+}
+.p{
+    color: rgb(23, 134, 231);
+}
+.a1{
+    color: rgb(188, 155, 114);
+}
+.a2{
+    color: chartreuse;
+}
