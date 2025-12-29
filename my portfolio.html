@@ -1,97 +1,83 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="portfoliostyling.css">
-        <title>NISHIT'S PORTFOLIO</title>
-    </head>
-        <body bgcolor="#C0C0C0" >
-        <div class="symbol"> N★S </div>
+<head>
+  <title>NISHIT'S PORTFOLIO</title>
+  <link rel="stylesheet" href="portfoliostyling.css">
+</head>
 
-          <font color="red"> <i><h2> HELLO EVERYONE THIS IS NISHIT SHARMA </h2></i> </font>
-         <h1><p> <font color="orange"> This is my portfolio as a freelance Web Developer | Website Maintenance Expert </p>
-            <br>
-            <br>
-            <br>
-            <br>
-        
-        <div class="para">Hi! I’m Nishit Sharma, a passionate Freelance Web Developer dedicated to helping individuals and businesses create a strong online presence.
-                  I specialize in building modern, responsive, and user-friendly websites using clean and organized code.
+<body>
 
- Whether you need a simple portfolio, business website, or complete redesign—I’ve got you covered! <br>
+  <!-- HERO SECTION -->
+  <div class="hero">
+    <div class="symbol">N★S</div>
+    <h2 class="fade">HELLO EVERYONE, THIS IS NISHIT SHARMA</h2>
+    <p class="tagline fade">
+      Freelance Web Developer | Website Maintenance Expert
+    </p>
+  </div>
 
+  <!-- ABOUT -->
+  <div class="para reveal">
+    Hi! I’m Nishit Sharma, a passionate Freelance Web Developer dedicated to helping
+    individuals and businesses create a strong online presence.
+    <br><br>
+    “I build clean, modern, and responsive websites for businesses, startups, and personal brands.”
+  </div>
 
-        (“I build clean, modern, and responsive websites for businesses, startups, and personal brands.”)</div> <br>
-        <br>
-        <br>
-    
-  <div class="a1">  ✅ Services I Offer
-🌐 Website Design<br><br>
+  <!-- SERVICES -->
+  <div class="a1 reveal card">
+    <h3>✅ Services I Offer</h3>
+    🌐 Website Design<br>
+    💻 Front-End Development (HTML, CSS, JS)<br>
+    🔧 Website Maintenance<br>
+    🔁 Website Re-Design<br>
+    📱 Fully Responsive Design
+  </div>
 
-Amazing UI design with clean layout for personal & business use.<br>
+  <!-- PROJECTS -->
+  <div class="card reveal">
+    <h3>✅ Projects</h3>
+    Portfolio Website<br>
+    Business Landing Page<br>
+    Restaurant Menu Page
+  </div>
 
-💻 Front-End Development<br>
+  <!-- WHY ME -->
+  <div class="card reveal">
+    <h3>✅ Why Choose Me</h3>
+    ✔ Quick communication<br>
+    ✔ Friendly approach<br>
+    ✔ Beginner-friendly pricing<br>
+    ✔ Clean & responsive design<br>
+    ✔ Fast delivery
+  </div>
 
-Modern, responsive websites built with HTML, CSS & JavaScript.<br>
+  <!-- CONTACT -->
+  <div class="a2 card reveal">
+    <h3>✅ Contact Me</h3>
+    📧 Email: sharmanishit@gmail.com<br>
+    📱 WhatsApp: 9621830300<br>
+    📍 Kanpur, India
+  </div>
 
-🔧 Website Maintenance<br>
+  <footer>
+    © 2025 Nishit | Designed & Developed by Me
+  </footer>
 
-Fix bugs, update content, add new pages/elements regularly.<br>
+<script>
+  window.onload = function () {
+    alert("NISHIT WELCOMES YOU TO THE PORTFOLIO");
+  };
 
-🔁 Website Re-Design<br>
+  // Scroll reveal animation
+  window.addEventListener("scroll", () => {
+    document.querySelectorAll(".reveal").forEach(el => {
+      if (el.getBoundingClientRect().top < window.innerHeight - 100) {
+        el.classList.add("active");
+      }
+    });
+  });
+</script>
 
-Make old and boring websites modern and professional.<br>
-
-📱 Fully-Responsive Design<br>
-
-Websites look great on PC, Tablet, and Mobile. </div><br>
-<br>
-<br>
-✅ Projects 
-
-Portfolio Website<br>
-Personal portfolio designed to display skills, projects, resume, and contact info.<br>
-
-Business Landing Page<br>
-Modern landing page for small businesses to improve online branding.<br>
-
-Restaurant Menu Page<br>
-Responsive menu layout using HTML/CSS.<br>
-
- <br>
-<br>
-<br>
-<br>
- 
-              
-✅ Why Choose Me <br>
-
-✔ Quick communication<br>
-
-✔ Friendly approach<br>
-
-✔ Beginner-friendly pricing<br>
-
-✔ Clean & responsive design<br>
-
-✔ Fast delivery <br>
-<br>
-<br>
-
-<div class="a2">✅ Contact Me
-
-📧 Email: sharmanishit@gmail.com <br>
-
-📱 WhatsApp:9621830300 <br> 
-💼 LinkedIn : Nishit sharma <br>
-📍 Location: Kanpur, India</div> <br>
-</p> </h1>
-
-
-© 2025 Nishit | Designed & Developed by Me <br>
-
-        </body>
-        <script>
-            alert(onload = "NISHIT WELCOMES U TO PORTFOLIO ")
-        </script>
-    
+</body>
 </html>
-
